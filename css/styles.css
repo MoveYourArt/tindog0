@@ -20,8 +20,25 @@
   color: #ff4c68;
 }
 
+#press{
+  background-color: #01c5c4;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #01c5c4;
+  text-align: center;
+  color: #fff;
+}
+
+/* Carousel */
+
+.carousel-item{
+  padding: 5% 15% 3%;
+}
+
 .container-fluid {
-  padding: 3% 15%;
+  padding: 5% 15%;
 }
 
 /* Download Buttons */
@@ -49,6 +66,19 @@
   font-weight: 300;
 }
 
+/* Press Logos */
+.press-logo{
+margin: 1.2rem 1.2rem 3.12rem;
+width: 15%;
+}
+
+/* Testimonial Image */
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
 /* Title Image */
 .title-image {
   width: 60%;
@@ -65,6 +95,13 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 
