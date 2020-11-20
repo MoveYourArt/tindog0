@@ -1,38 +1,34 @@
-#title {
-  /* background-color: #ff4c68; */
-  background-color: #01c5c4;
-  color: #fff;
+/*********************** html elements ****************************************/
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-#features {
-  text-align: center;
-  background-color: #fff;
-  padding: 4% 0;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-/* Font Awesome */
-#features .fas {
-  color: #01c5c4;
-  margin-bottom: 1rem;
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
-#features .fas:hover {
-  color: #ff4c68;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
-#press{
-  background-color: #01c5c4;
-  text-align: center;
+p {
+  color: #8f8f8f;
 }
 
-#testimonials {
-  background-color: #01c5c4;
-  text-align: center;
-  color: #fff;
-}
-
+/************************************* classes*********************************/
 /* Carousel */
-
 .carousel-item{
   padding: 5% 15% 3%;
 }
@@ -87,30 +83,40 @@ width: 15%;
   left: 60px;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+/**************************************ids*************************************/
+
+
+#title {
+  /* background-color: #ff4c68; */
+  background-color: #01c5c4;
+  color: #fff;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
+#features {
+  text-align: center;
+  background-color: #fff;
+  padding: 4% 0;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight:bold;
-  font-size: 2.5rem;
-  line-height: 1.5;
+/* Font Awesome */
+#features .fas {
+  color: #01c5c4;
+  margin-bottom: 1rem;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
+#features .fas:hover {
+  color: #ff4c68;
 }
 
-p {
-  color: #8f8f8f;
+
+
+#press{
+  background-color: #01c5c4;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #01c5c4;
+  text-align: center;
+  color: #fff;
 }
